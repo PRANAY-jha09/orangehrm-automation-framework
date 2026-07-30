@@ -1,0 +1,6 @@
+{
+  "base_url": "https://opensource-demo.orangehrmlive.com/",
+  "browser": "chrome",
+  "implicit_wait": 10,
+  "explicit_wait": 20
+}
