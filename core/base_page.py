@@ -24,4 +24,13 @@ class BasePage:
             Ec.visibility_of_element_located(locator)
         ).text
 
+    def is_displayed(self,locator):
+        return self.wait.until(lambda d:d.find_element(*locator).is_displayed())
+
+    def get_title(self):
+        return self.driver.title
+
+    def get_current_url(self):
+        return self.driver.current_url
+
 
